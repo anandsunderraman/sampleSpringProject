@@ -19,6 +19,11 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+		    <groupId>org.codehaus.jackson</groupId>
+		    <artifactId>jackson-mapper-asl</artifactId>
+		    <version>1.9.12</version>
+		</dependency>
 		<!-- Spring dependencies -->
 		<dependency>
 			<groupId>org.springframework</groupId>

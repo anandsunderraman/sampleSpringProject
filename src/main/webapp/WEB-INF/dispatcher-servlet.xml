@@ -38,14 +38,14 @@
 	            </bean>
 	        </list>
 	    </property>
-	    
-		<!-- <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-			<property name="prefix">
-				<value>/WEB-INF/views/</value>
-			</property>
-			<property name="suffix">
-				<value>.jsp</value>
-			</property>
-		</bean> -->
 	</bean>
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+      <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+      <property name="url" value="jdbc:mysql://localhost:3306/sugar76"/>
+      <property name="username" value="root"/>
+      <property name="password" value="sugar@1234"/>
+   </bean>
+   <bean id="accountJDBCTemplate" class="org.dealer.SpringHelloWorld.model.AccountJDBCTemplate">
+      <property name="dataSource"  ref="dataSource" />    
+   </bean>
 </beans>

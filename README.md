@@ -2,4 +2,4 @@ sampleSpringProject
 ===================
 Sample Spring 4.0 project added for my reference
 
-The master branch is a Spring MVC tutorial from http://www.programcreek.com/2014/02/spring-mvc-helloworld-using-maven-in-eclipse/
+The httpRemoting branch is based on Spring Http Remoting tutorial from http://www.javaworld.com/article/2072246/simple-spring-http-remoting-example.html
